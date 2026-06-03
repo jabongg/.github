@@ -1,0 +1,11 @@
+{
+  "name": "Gitleaks Secret Scan",
+  "description": "Automated secret scanning to detect credentials, API keys, and other sensitive information in your repository. Runs on every push, pull request, and weekly schedule.",
+  "iconName": "shield",
+  "categories": [
+    "Security"
+  ],
+  "filePatterns": [
+    ".github/workflows/gitleaks.yml"
+  ]
+}
